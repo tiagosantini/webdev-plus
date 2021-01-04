@@ -57,6 +57,10 @@ ul {
   font-weight: 700;
 }
 
+.overview .screen-large {
+  display: none;
+}
+
 .container {
   display: block;
   padding: 5% 5%;
@@ -96,19 +100,43 @@ ul {
 
     padding-top: 0;
     padding-bottom: 0;
-    padding-right: 50%;
+    padding-right: 45%;
 
     margin-bottom: 0;
 
     font-size: 1.5rem;
   }
 
+  .header .title-main {
+    margin: 5% 10%;
+  }
+
   .overview {
     display: block;
-    margin-top: 0;
-    padding-left: 50%;
+    padding-right: 40%;
 
     font-size: 1.5rem;
+  }
+
+  .overview p {
+    margin: 10% 10%;
+  }
+
+  .overview .screen-small {
+    display: none;
+  }
+
+  .overview a {
+    text-decoration: none;
+    color: #ffcc70;
+  }
+
+  .overview .screen-large {
+    display: inline;
+  }
+
+  .overview a:hover {
+    color: #f7f7f7;
   }
 
   .overview .start-button-mobile {
